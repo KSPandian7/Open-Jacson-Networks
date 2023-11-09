@@ -4,8 +4,7 @@
 To find (a) average number of materials in the system (b) average number of materials in the each conveyor of (c) waiting time of each material in the system (d) waiting time of each material in each conveyor, if the arrival  of materials follow Poisson process with the mean interval time 12 seconds, service time of  lathe machine in series follow exponential distribution  with service time  1 second, 1.5 seconds and 1.3 seconds respectively and average service time of robot is 7 seconds.
 
 ## Software required :
-- Visual components
--  Python
+Visual components and Python
 
 ## Theory
 
@@ -18,13 +17,13 @@ To find (a) average number of materials in the system (b) average number of mate
 
 
 ## Experiment:
-![EXP](239798222-8174c246-d4fb-4c73-8ecc-48bed11c80fb.png)
 
-## Program :
-```python
-DEVELOPED BY : KULASEKARAPANDIAN K
-REGISTER NO : 212222240052
-```
+![exp6](https://github.com/nithin-popuri7/Open-Jacson-Networks/assets/94154780/8174c246-d4fb-4c73-8ecc-48bed11c80fb)
+
+![exp6 1](https://github.com/nithin-popuri7/Open-Jacson-Networks/assets/94154780/0ef077a1-29ac-4a7d-af4d-ee190017819a)
+
+
+## Program:
 ```python
 arr_time=float(input("Enter the mean inter arrival time of objects from Feeder (in secs): "))
 ser_time1=float(input("Enter the mean  inter service time of Lathe Machine 1 (in secs) :  "))
@@ -64,9 +63,9 @@ else:
     print("Warning! Objects Over flow will happen in the conveyor")
 print("----------------------------------------------------------------------")
 ```
+## Output:
+![j2](https://github.com/nithin-popuri7/Open-Jacson-Networks/assets/94154780/6805b552-88b9-4528-895a-481778f7daf6)
 
-## Output : 
-![OUTPUT](/op6.png)
 
-## Result :
+## Result:
 The average number of material in the sysytem and in the conveyor and waiting time are successfully found.
